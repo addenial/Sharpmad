@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,9 +7,9 @@ using System.DirectoryServices.ActiveDirectory;
 
 namespace Sharpmad
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             string argAccess = "GenericAll";
             string argAccessType = "Allow";
